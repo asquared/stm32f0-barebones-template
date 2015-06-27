@@ -6,6 +6,9 @@ everything but the bare essentials - that means no ST initialization routines
 or peripheral libraries. Use this if you're like me and prefer to work with
 the bare metal when developing your embedded projects.
 
+On Debian Jessie, to get a toolchain, just `apt-get install gcc-arm-none-eabi`
+and away you go.
+
 ## Just the essentials!
 
 This won't program your board, initialize your peripherals for you,
